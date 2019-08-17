@@ -1,0 +1,12 @@
+<view>
+  测试的模板的引用的问题...
+</view>
+<template name="header">
+  这是头部导航的页面...
+  <view>
+  {{index}}-{{msg}}-{{time}}
+  </view>
+</template>
+<!--  在这里开始引入 footer的模板  -->
+<import src="/footer.wxml" />
+<!-- <template is="footer"></template> -->

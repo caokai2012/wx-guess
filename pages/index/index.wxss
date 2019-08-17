@@ -1,0 +1,63 @@
+/**index.wxss**/
+page{
+  background: yellow;
+}
+/*  */
+.index_container{
+
+}
+.index_title{
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bolder;
+}
+.index_title text{
+  color: red;
+}
+
+.index_center{
+  padding: 0 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.index_box{
+  width: 90px;
+  height: 90px;
+  /* border: 1px red solid; */
+  line-height: 90px;
+  text-align: center;
+}
+.result{
+  font-weight: bolder;
+  font-size: 20px;
+  color: red;
+}
+
+/*  */
+.index_bottom{
+  margin: 20px auto 0;
+  padding-top: 20px;
+  width: 90%;
+  height: 700rpx;
+  background: white;
+  text-align: center;
+  font-weight: bolder;
+}
+.index_select{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.index_select_box{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.index_bottom button{
+  margin: 50px auto 0;
+  width: 80%;
+  background: yellow;
+}
+ 

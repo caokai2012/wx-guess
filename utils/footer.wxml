@@ -1,0 +1,5 @@
+<template name="footer">
+  <view class="footer">
+    <text>这是footer的内容部分1</text>
+  </view>
+</template>
